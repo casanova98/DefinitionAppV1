@@ -2,7 +2,10 @@
 
 Definition app version 1
 
-added 
+added the following
+
 1.quiz functions
+
 2.push notifications
+
 3.display normal defintions
