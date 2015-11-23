@@ -60,6 +60,18 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    public void button_computing(View v) {
+        startActivity(new Intent(MainActivity.this, ComputingActivity.class));
+    }
+
+    public void button_chineses(View v) {
+        startActivity(new Intent(MainActivity.this, ChineseActivity.class));
+    }
+
+    public void button_politic(View v) {
+        startActivity(new Intent(MainActivity.this, PolticsActivity.class));
+    }
+
 
 
 }

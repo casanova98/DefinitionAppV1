@@ -19,4 +19,7 @@
     <string name="quiz">Quiz time</string>
     <string name="quiz_result">Quiz results</string>
     <string name="choose">Choose your topic</string>
+    <string name="chineses">chineses</string>
+    <string name="computings">computings</string>
+    <string name="politic">politic</string>
 </resources>

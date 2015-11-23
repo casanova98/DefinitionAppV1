@@ -14,6 +14,7 @@ import com.parse.SaveCallback;
 public class CustomApplication extends Application {
     @Override
     public void onCreate() {
+        super.onCreate();
         Parse.initialize(this, "PfYMJUWkXQ1irq6WxCU3AHLqQ5XO6eYkPTWFS3Mo", "duD6XAFmuEMf5ZaPdj3rBifZYNYE05Ekx6lePXwN");
         ParseInstallation.getCurrentInstallation().saveInBackground();
         PushService.setDefaultPushCallback(this, MainActivity.class);

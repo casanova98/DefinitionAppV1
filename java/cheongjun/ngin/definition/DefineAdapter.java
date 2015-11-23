@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Collections;
 import java.util.List;
@@ -17,15 +18,22 @@ public class DefineAdapter extends RecyclerView.Adapter<DefineAdapter.MyViewHold
     List<Information> data= Collections.emptyList();
     private Context context;
 
+
     public DefineAdapter (Context context, List<Information> data) {
+        this.context=context;
         inflater=LayoutInflater.from(context);
         this.data=data;
+    }
+
+    public void delete(int position){
+        data.remove(position);
+        notifyItemRemoved(position);
     }
 
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view=inflater.inflate(R.layout.custom_row, parent,false);
+        View view=inflater.inflate(R.layout.custom_row, parent, false);
         MyViewHolder holder=new MyViewHolder(view);
         return holder;
     }
@@ -37,20 +45,32 @@ public class DefineAdapter extends RecyclerView.Adapter<DefineAdapter.MyViewHold
         holder.icon.setImageResource(current.iconId);
     }
 
+
     @Override
     public int getItemCount() {
         return data.size();
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder {
+    class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView title;
         ImageView icon;
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            title= (TextView) itemView.findViewById(R.id.listText);
-            icon= (ImageView) itemView.findViewById(R.id.listIcon);
+            itemView.setOnClickListener(this);
+            title = (TextView) itemView.findViewById(R.id.listText);
+            icon = (ImageView) itemView.findViewById(R.id.listIcon);
+            title.setOnClickListener(this);
+        }
+
+
+        @Override
+        public void onClick(View v) {
+            delete(getLayoutPosition());
+
         }
     }
+
+
 
 }
