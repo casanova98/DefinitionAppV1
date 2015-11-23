@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Definition</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="str_next">next</string>
+    <string name="menu_settings">menu settings</string>
+
+
+
+    <string name="computing">Computing</string>
+    <string name="chinese">Chinese</string>
+    <string name="politics">Politics</string>
+    <string name="quiz">Quiz time</string>
+    <string name="quiz_result">Quiz results</string>
+    <string name="choose">Choose your topic</string>
+</resources>

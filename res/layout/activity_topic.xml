@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/step1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_comp"
+        android:padding="25dp"
+        android:src="@drawable/img_computing"
+        android:contentDescription="@string/computing"
+        android:layout_below="@+id/app_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="87dp" />
+
+    <ImageButton
+        android:id="@+id/step2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_chinese"
+        android:padding="25dp"
+        android:src="@drawable/img_chinese"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/step1"
+        android:contentDescription="@string/chinese"/>
+
+    <ImageButton
+        android:id="@+id/step3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_politics"
+        android:padding="25dp"
+        android:src="@drawable/img_politics"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/step2"
+        android:contentDescription="@string/politics"/>
+
+    <ImageButton
+        android:id="@+id/step4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_comp"
+        android:padding="25dp"
+        android:src="@drawable/img_computing"
+        android:contentDescription="@string/computing"
+        android:layout_alignTop="@+id/step1"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/step5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_chinese"
+        android:padding="25dp"
+        android:src="@drawable/img_chinese"
+        android:contentDescription="@string/chinese"
+        android:layout_below="@+id/step6"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/step6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_politics"
+        android:padding="25dp"
+        android:src="@drawable/img_politics"
+        android:contentDescription="@string/politics"
+        android:layout_above="@+id/step8"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/step7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_comp"
+        android:padding="25dp"
+        android:src="@drawable/img_computing"
+        android:contentDescription="@string/computing"
+        android:layout_alignTop="@+id/step4"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/step8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_chinese"
+        android:padding="25dp"
+        android:src="@drawable/img_chinese"
+        android:contentDescription="@string/chinese"
+        android:layout_alignTop="@+id/step3"
+        android:layout_alignStart="@+id/step9" />
+
+    <ImageButton
+        android:id="@+id/step9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_politics"
+        android:padding="25dp"
+        android:src="@drawable/img_politics"
+        android:contentDescription="@string/politics"
+        android:layout_below="@+id/step4"
+        android:layout_alignStart="@+id/step4" />
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+</RelativeLayout>
