@@ -2,6 +2,7 @@
 
 Definition app version 1
 
-added quiz functions
-      push notifications
-      display normal defintions
+added 
+1.quiz functions
+2.push notifications
+3.display normal defintions
