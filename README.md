@@ -9,3 +9,6 @@ added the following
 2.push notifications
 
 3.display normal defintions
+
+
+to edit go under \app\src\main\res\values\strings

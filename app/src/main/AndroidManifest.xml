@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cheongjun.ngin.definition">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission android:protectionLevel="signature"
+        android:name="cheongjun.ngin.definition.permission.C2D_MESSAGE" />
+    <uses-permission android:name="cheongjun.ngin.definition.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".CustomApplication">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="cheongjun.ngin.definition.MESSAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComputingQuestion"
+            android:label="@string/computing_questions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/quiz_result">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".ChineseQuestion"
+            android:label="@string/chinese">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".MathQuestion"
+            android:label="@string/math_questions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity android:name=".GeoActivity"
+            android:label="@string/geography">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".ChineseActivity"
+            android:label="@string/chineses">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".PhysicsActivity"
+            android:label="@string/physics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".ComputingActivity"
+            android:label="@string/computings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Bio_topic1"
+            android:label="@string/cell_structure">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.BiologyActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Bio_topic2"
+            android:label="@string/dna">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.BiologyActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Bio_topic3"
+            android:label="@string/genetics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.BiologyActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Geo_topic1"
+            android:label="@string/computings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.GeoActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Geo_topic2"
+            android:label="@string/computings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.GeoActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Geo_topic3"
+            android:label="@string/computings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.GeoActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Math_topic1"
+            android:label="@string/formula">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MathActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Math_topic2"
+            android:label="@string/rules">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MathActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Math_topic3"
+            android:label="@string/fact">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MathActivity' />
+        </activity>
+        <activity
+            android:name=".MathActivity"
+            android:label="@string/math">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".EconsActivity"
+            android:label="@string/economics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Econs_topic1"
+            android:label="@string/economics_facts">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.EconsActivity' />
+        </activity>
+        <activity
+            android:name=".ChemActivity"
+            android:label="@string/chemistry">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+
+        <activity
+            android:name=".Topics.Chem_topic1"
+            android:label="@string/facts">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ChemActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Chem_topic2"
+            android:label="@string/thermo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ChemActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Chem_topic3"
+            android:label="@string/chemistry_fact">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ChemActivity' />
+        </activity>
+        <activity
+            android:name=".EngActivity"
+            android:label="@string/generalpaper">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Eng_topic1"
+            android:label="@string/evidences_examples">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.EngActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Eng_topic2"
+            android:label="@string/quotes">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.EngActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Eng_topic3"
+            android:label="@string/stats">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.EngActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Comp_topic1"
+            android:label="@string/algorithms">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ComputingActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Comp_topic2"
+            android:label="@string/data_structure">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ComputingActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Comp_topic3"
+            android:label="@string/computing_network">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ComputingActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Chinese_topic1"
+            android:label="@string/弟子规">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ChineseActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Chinese_topic2"
+            android:label="@string/论语">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ChineseActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Chinese_topic3"
+            android:label="@string/引用句">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ChineseActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Physics_topic1"
+            android:label="@string/electro">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.PhysicsActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Physics_topic2"
+            android:label="@string/quantities">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.PhysicsActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Physics_topic3"
+            android:label="@string/facts">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.PhysicsActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Physics_topic4"
+            android:label="@string/formula">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.PhysicsActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Physics_topic5"
+            android:label="@string/line">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.PhysicsActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Physics_topic6"
+            android:label="@string/nuclear">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.PhysicsActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Comp_topic4"
+            android:label="@string/cryptography">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ComputingActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Comp_topic5"
+            android:label="@string/shell_cmd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ComputingActivity' />
+        </activity>
+        <activity
+            android:name=".Topics.Comp_topic6"
+            android:label="@string/firefox_tricks">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.ComputingActivity' />
+        </activity>
+        <activity
+            android:name=".BiologyActivity"
+            android:label="@string/biology">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <activity
+            android:name=".TopicActivity"
+            android:label="@string/choose">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value='.MainActivity' />
+        </activity>
+        <service android:name="com.parse.PushService"/>
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!--
+                  IMPORTANT: Change "com.parse.starter" to match your app's package name.
+                -->
+                <category android:name="cheongjun.ngin.definition" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/formula"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:onClick="math_topic1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button2"
+        android:onClick="math_topic2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facts"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:onClick="math_topic3"/>
+
+</RelativeLayout>

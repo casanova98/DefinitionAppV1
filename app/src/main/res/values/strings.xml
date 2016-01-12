@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">Definition</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="str_next">next</string>
+    <string name="menu_settings">menu settings</string>
+
+
+    <string name="computing">Computing</string>
+    <string name="chinese">Chinese</string>
+    <string name="politics">Politics</string>
+    <string name="quiz">Quiz time</string>
+    <string name="quiz_result">Quiz results</string>
+    <string name="choose">Choose your topic</string>
+    <string name="chineses">Chinese</string>
+    <string name="computings">Computing</string>
+    <string name="politic">politic</string>
+    <string name="biology">Biology</string>
+    <string name="physics">Physics</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="generalpaper">General paper</string>
+    <string name="geography">geography</string>
+    <string name="math">Mathematics</string>
+    <string name="economics">Economics</string>
+    <string name="history">history\'</string>
+    <string name="literature">literature</string>
+    <string name="quotes">Quotes</string>
+    <string name="论语">论语</string>
+    <string name="弟子规">弟子规</string>
+    <string name="引用句">引用句</string>
+    <string name="algorithms">Algorithms</string>
+    <string name="data_structure">Data structures</string>
+    <string name="computing_network">Computing network</string>
+    <string name="cryptography">Cryptography</string>
+    <string name="shell_cmd">Shell Commands</string>
+    <string name="firefox_tricks">Firefox Tricks</string>
+    <string name="comp_algorithm_one">Linear search efficiency is linear O(n) time.</string>
+    <string name="comp_algorithm_two">Binary search efficiency is logarithmic O(lg n) time.</string>
+    <string name="comp_algorithm_three">Bubble sort efficiency is quadratic O(n2) time.</string>
+    <string name="data_structure_one">A stack is a LIFO/LIFO data structure.</string>
+    <string name="data_structure_two">A queue is a FIFO/LILO data structure.</string>
+    <string name="data_structure_three">Stack essential attributes: data, top pointer.</string>
+    <string name="data_structure_four">Queue essential attributes: data, front and rear pointers.</string>
+    <string name="data_structure_five">A dictionary is a collection of key-value pairs.</string>
+    <string name="data_structure_six">A linked list node has both data and link fields.</string>
+    <string name="data_structure_seven">An array is a static memory allocation data structure.</string>
+    <string name="data_structure_eight">A linked list is a dynamic memory allocation data structure.</string>
+    <string name="data_structure_nine">Array access is constant O(1) time.</string>
+    <string name="data_structure_ten">Linked list access is linear/sequental O(n) time.</string>
+    <string name="comp_network_one">Binary signals can be sent over radio signals, fiber optic cables or even by hand signals.</string>
+    <string name="comp_network_two">Physical – Transmission and reception of raw bit streams over a physical medium</string>
+    <string name="comp_network_three">Data Link – Reliable transmission of data frames between two nodes connected by a physical layer</string>
+    <string name="comp_network_four">Network – Structuring a multi-node network, including routing, addressing and traffic control</string>
+    <string name="comp_network_five">Transport – Transmission of data segments between points on a network – The pigeon carrying the message</string>
+    <string name="comp_network_six">Session – Managing persistent forms of connection between nodes</string>
+    <string name="comp_network_seven">Presentation – Translating data into a form that can be transmitted</string>
+    <string name="comp_network_eight">Application – High-Level interfaces for representing data</string>
+    <string name="comp_network_nine">Mnemonic for OSI (Open Systems Interconnection) Model: Please Do Not Throw Sausage Pizza Away</string>
+    <string name="comp_network_ten">Internet Relay Chat is an application layer protocol for the transfer of text messages.</string>
+    <string name="comp_crypto_one">A certificate authority or certification authority (CA) is an entity that issues digital certificates. A digital certificate certifies the ownership of a public key by the named subject of the certificate.</string>
+    <string name="comp_crypto_two">A public key certificate consists of a public key, an identifier of the key owner and the whole block signed by a certificate authority (CA).</string>
+    <string name="comp_crypto_three">Methods to distribute public keys include public announcement, a publicly available directory, public key authority and public key certificates</string>
+    <string name="comp_crypto_four">A digital signature is an authentication mechanism that enables the creator of a message to attach a code that acts as a signature.</string>
+    <string name="comp_crypto_five">Cryptographic hash functions are used for message authentication, digital signatures, one-way password files, intrusion detection, virus detection and PRNGs.</string>
+    <string name="comp_crypto_six">A Man-In-The-Middle (MITM) attack is where an attacker secretly relays and possibly alters the communications between two parties communicating with each other.</string>
+    <string name="comp_crypto_seven">Public key or asymmetric cryptography uses a public key for encryption and a private key for decryption.</string>
+    <string name="comp_shell_one">Type \'ls\' to list directories in Powershell (windows) or Terminal (Unix-like)</string>
+    <string name="comp_shell_two">Type \'cd\' with the directory name to move into the directory in Powershell (Windows) or Terminal (Unix-like).</string>
+    <string name="comp_shell_three">Type \'pushd\' to go into a directory then \'popd\' to go back to the directory where \'pushd\' was used in Powershell (Windows) or Terminal (Unix-like).</string>
+    <string name="comp_shell_four">Type \'mkdir\' with the directory name to create a directory in Powershell (Windows) or Terminal (Unix-like).</string>
+    <string name="comp_shell_five">Create a file using \'touch\' and the filename in Terminal (Unix-like systems).</string>
+    <string name="comp_shell_six">Type \'cp\' with the current directory of the file you wish to copy and the destination in Powershell (Windows) or Terminal (Unix-like).</string>
+    <string name="comp_shell_seven">Type \'mv\' with the current directory of the file you wish to move and the destination in Powershell (Windows) or Terminal (Unix-like).</string>
+    <string name="comp_firefox_one">Press CTRL + SHIFT + M to enter Responsive Design View (useful for web developers)</string>
+    <string name="comp_firefox_two">Press SHIFT + F2 then type \'restart\' to restart Firefox.</string>
+    <string name="comp_firefox_three">Type \'about:config\' in the address bar and enable media.mediasource.enabled and media.mediasource.mp4.enabled to have full HTML5 Youtube playback.</string>
+    <string name="comp_firefox_four"><![CDATA[The profile folder can be found by going to Help>Troubleshooting Information>Application Basics]]></string>
+    <string name="comp_firefox_five"><![CDATA[If Firefox is running slowly, go to Help>Troubleshooting Information and select “Refresh Firefox”]]></string>
+    <string name="comp_firefox_six">To change profiles in Firefox on a Windows system, run \'firefox -ProfileManager</string>
+    <string name="comp_firefox_seven">To change profiles in Firefox on a Unix-like system, run \'firefox –ProfileManager\'</string>
+    <string name="genetics">Genetics</string>
+    <string name="dna">DNA</string>
+    <string name="cell_structure">Cell Structure</string>
+    <string name="cell_structure_one">The nucleus is the largest organelle in the cell.</string>
+    <string name="cell_structure_two">The nucleus is found in all eukaryotic cells except mature phloem sieve tube elements and red blood cells</string>
+    <string name="cell_structure_three">The nucleus is typically spherical, may be ovoid or lobed</string>
+    <string name="cell_structure_four">The nucleus is capable of dividing prior to cell division, such that daughter cells will each get a nucleus.</string>
+    <string name="cell_structure_five">The nucleus functions as a control centre for activities of the cell</string>
+    <string name="cell_structure_six">The nucleus contains DNA that carries the instruction for protein synthesis.</string>
+    <string name="cell_structure_seven">The nuclear envelope is composed of 2 membranes separated by a fluid-filled space of 25nm.</string>
+    <string name="cell_structure_eight">The outer membrane of the nuclear envelope is continuous with another organelle, the endoplasmic reticulum.</string>
+    <string name="cell_structure_nine">The nuclear envelope is perforated by nuclear pores lined by a protein octet.</string>
+    <string name="dna_seven">Translation: Process by which a sequence of bases in an mRNA molecule is converted into a sequence of amino acids in a polypeptide chain</string>
+    <string name="dna_six">Translation begins when an rRNA molecule within the ribosomes recognises and binds to a ‘start’ sequence on the mRNA</string>
+    <string name="dna_five">mRNA stands for messenger ribonucleic acid</string>
+    <string name="dna_four">mRNA is synthesised during transcription</string>
+    <string name="dna_three">The base sequence of the mRNA is complementary to that of the DNA it is transcribed from</string>
+    <string name="dna_two">tRNA stands for transfer ribonucleic acid</string>
+    <string name="dna_one">tRNA is synthesised in the nucleus and exists nucleus to cytoplasm for translation to occur</string>
+    <string name="genetics_seven">Gene: Heritable sequence of nucleotides along a DNA molecule which codes for a polypeptide</string>
+    <string name="genetics_six">A gene can be regarded as a basic unit of inheritance</string>
+    <string name="genetics_five">Allele: An alternative form of a gene that can be present on either one or both of a pair of homologous chromosomes</string>
+    <string name="genetics_four">Genotype: Genetic constitution of an organism that produces a phenotype</string>
+    <string name="genetics_three">Phenotype: Observable physical and chemical characteristics of an individual</string>
+    <string name="genetics_two">Gene pair: Refers to the two allele of a particular gene present in a diploid cell</string>
+    <string name="genetics_one">The Law of Supply states that the higher the price of a good, the higher the quantity supplied of the good, ceteris paribus.</string>
+    <string name="lunyu_one">子曰：“学而时习之，不亦悦乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”</string>
+    <string name="lunyu_two">有子曰：“其为人也孝悌而好犯上者，鲜矣。不好犯上而好作乱者，未之有也。君子务本，本立而道生。孝悌也者，其为仁之本与？”</string>
+    <string name="lunyu_three">子曰：“巧言令色，鲜矣仁。”</string>
+    <string name="lunyu_four">曾子曰：吾日三省乎吾身。为人谋而不忠乎？与朋友交而不信乎？传不习乎？</string>
+    <string name="lunyu_five">子曰：道千乘之国，敬事而信，节用而爱人，使民以时。</string>
+    <string name="lunyu_six">子曰：弟子入则孝，出则悌，谨而信，泛爱众而亲仁，行有余力，则以学文。</string>
+    <string name="lunyu_seven">子夏曰：贤贤易色，事父母，能竭其力。事君，能致其身。与朋友交，言而有信。虽曰未学，吾必谓之学矣。</string>
+    <string name="chinese_one">弟子规，圣人训 首孝弟, 次谨信     泛爱众，而亲仁 有余力，则学文</string>
+    <string name="chinese_two">父母呼，应勿缓                父母命，行勿懒         父母教，须敬听         父母责，須我承</string>
+    <string name="chinese_three">冬则溫，夏则清         晨则省，昏则定     出必告，返必面  居有常，业无变</string>
+    <string name="chinese_four">事虽小，勿擅为 苟擅为，子道亏 物虽小，勿私藏 苟私藏，亲心伤</string>
+    <string name="chinese_five">亲所好，力为具 亲所惡，谨为去  身有伤，貽亲忧      德有伤，貽亲羞</string>
+    <string name="chinese_six">亲爱我，孝何难 亲憎我，孝方贤  亲有过，谏使更      怡吾色，柔吾声</string>
+    <string name="chinese_seven">谏不入，悅復谏 号泣隨，撻无怨      亲有疾，药先尝       晝夜侍，不离床</string>
+    <string name="yingyong_seven">性相近也，习相远也</string>
+    <string name="yingyong_six">过而不改，是谓过矣</string>
+    <string name="yingyong_five">己所不欲，勿施于人</string>
+    <string name="yingyong_four">言必信，行必果</string>
+    <string name="yingyong_two">凡是人，皆須爱         天同覆，地同載         行高者，名自高        人所重，非貌高</string>
+    <string name="yingyong_one">无心非，名为錯        有心非，名为惡         过能改，归於无         倘掩飾，增一辜</string>
+    <string name="yingyong_three">闻过怒，闻誉樂        损友来，益友卻         闻誉恐，闻过欣         直諒士，漸相亲</string>
+    <string name="formula">Formula</string>
+    <string name="definition">Facts</string>
+    <string name="quantities">Quantities</string>
+    <string name="electro">Electromagnetism</string>
+    <string name="nuclear">Nuclear Physics</string>
+    <string name="line">Line Spectra</string>
+    <string name="electro_seven">Magnetic flux through an area is defined as the product of the component of the magnetic flux density normal to the area and the area.</string>
+    <string name="electro_six">Magnetic flux, φ = BAcosΘ, where Θ is the angle between the normal to the area and the direction of magnetic flux density.</string>
+    <string name="electro_five">The weber is the magnetic flux of a uniform magnetic field of flux density 1 T passing through a plane surface area of 1 m^2 normally.</string>
+    <string name="electro_four">Magnetic flux linkage through a coil is the product of the number of turns of the coil and the magnetic flux through one turn.</string>
+    <string name="electro_three">Magnetic flux linkage, Φ = NBAcosΘ, where N is the number of turns of the coil.</string>
+    <string name="electro_two">Faraday\'s law states that the magnitude of the induced e.m.f. is directly proportional to the rate of change of magnetic flux linkage.</string>
+    <string name="electro_one">In a closed circuit, the charge that flows can be determined by E = change in fux linkage / time.</string>
+    <string name="quantities_one">mass m kg</string>
+    <string name="quantities_two">length l m</string>
+    <string name="quantities_three">time t s</string>
+    <string name="quantities_four">electric current I A</string>
+    <string name="quantities_five">thermodynamic temperature T K</string>
+    <string name="quantities_six">amount of substance n mol</string>
+    <string name="quantities_seven">acceleration a m s–2</string>
+    <string name="quantities_eight">acceleration of free fall g m s–2</string>
+    <string name="quantities_nine">activity of radioactive source A Bq</string>
+    <string name="define_seven">Gravitational field is a region of space where a mass experiences a force. The direction of the field is the direction of force on mass</string>
+    <string name="define_six">Gravitational field lines are lines representing the direction of a force on a point mass in a gravitational field</string>
+    <string name="define_five">The force of attraction between two point masses is directly proportional to the product of their masses and inversely proportional to the square of their separation</string>
+    <string name="define_four">The gravitational constant is 6.67 x 10^-11</string>
+    <string name="define_three">A geostationary satellite is one which will always remain vertically above a single fixed point on Earth\'s equator</string>
+    <string name="define_two">Gravitational field strength g at a point in the field is defined as the force per unit mass experienced by a small test mass placed at that point in the field</string>
+    <string name="define_one">Gravitational force is a conservative force</string>
+    <string name="formula_seven">F = (GMm)/(r^2)</string>
+    <string name="formula_six">Hooke\'s Law: F=ke</string>
+    <string name="formula_five">The change in length e of a material is directly proportional to the resultant force F applied, provided the limit of proportionality has not been exceeded.</string>
+    <string name="formula_four">For constant mass, F = ma</string>
+    <string name="formula_three">Rate of Change in Momentum = Change in momentum divided by the time taken for the change.</string>
+    <string name="formula_two">Change in Momentum = Final Momentum – Initial Momentum</string>
+    <string name="formula_one">S = k ln W</string>
+    <string name="line_one">The existence of discrete energy levels within the isolated atoms is suggested by observing that various gases can produce line spectra.</string>
+    <string name="line_two">Emission line spectrum is characterized by coloured lines on dark background. The coloured lines are photons of various frequencies emitted by the hot gas. Each colour represents the energy of a photon emitted.</string>
+    <string name="line_three">The fact that only certain discrete colours (energies) are emitted suggests that within the atom there are discrete energy levels.</string>
+    <string name="line_four">Absorption line spectrum is characterized by dark lines on coloured background. The dark lines are photons of various frequencies that are absorbed by the cool gas and subsequently re-radiated out uniformly in all directions. Each dark line represents the energy of a photon absorbed.</string>
+    <string name="line_five">Energy level of a hydrogen atom, En = 13.6 / n^2 x eV, n = 1, 2, 3…</string>
+    <string name="line_six">The ground state energy of an atom is the most stable state where the electron is most likely to be found.</string>
+    <string name="line_seven"><![CDATA[Visible light : V I B G Y O R. violet ≈ 400 nm => energy of a photon ≈ 3.1 eV, red ≈ 700 nm => energy of a photon ≈ 1.8 eV.]]></string>
+    <string name="nuclear_one">Gamma decay usually occurs alongside alpha or beta decay. This occurs when unstable, excited nucelus de-excites to a lower, ore stable energy state by emitting a gamma ray photon. Gamma decay does not change the proton or neutron number of the original nucleus.</string>
+    <string name="nuclear_two">Activity is the actual rate of disintegration of the radioactive nuclei (per second).</string>
+    <string name="nuclear_three">Count rate is the number of radioactive emissions per unit time detected by the detector (e.g. by the GM tube).</string>
+    <string name="nuclear_four">Activity (also called the rate of decay) is found by A = -dN/dt, where N is the number of radioactive nuclei present.</string>
+    <string name="nuclear_five">Law of decay: The rate of decay is directly proportional to the number of radioactive nuclei present. The constant of proportionality is the decay constant, λ: A = λN.</string>
+    <string name="nuclear_six">Half life is defined as the time taken for half the number of radioactive nuclei present to decay.</string>
+    <string name="nuclear_seven">The activity of a mixture of radioactive isotopes is the sum of activity of each radioactive isotope.</string>
+    <string name="physics_fact">Equilibria Fact</string>
+    <string name="thermo">Thermodynamics</string>
+    <string name="thermo_one">A system that has a high degree of disorder or randomness is said to have high entropy.</string>
+    <string name="thermo_two">Higher entropy is observed if there are more ways to distribute particles in space or available energy among the particles.</string>
+    <string name="thermo_three">The number of ways to distribute the particles or energy depends on the number of particles, the orderliness of particles in different physical states as well as the temperature at which the particles are in.</string>
+    <string name="thermo_four">Entropy of a system increases when a system becomes more disordered.</string>
+    <string name="thermo_five">Entropy is a state function like enthalpy and is dependent on the states of the reactants and products.</string>
+    <string name="thermo_six">A defined universe is made up of the system and surrounding.</string>
+    <string name="thermo_seven">The system is a well-defined part of the universe under study, a quantity of matter of fixed identity, around which we can draw a boundary</string>
+    <string name="fact_one">An irreversible reaction proceeds in one direction until one of the reactants is used up.</string>
+    <string name="fact_seven">Time for the system to reach equilibrium is dependent on the rates of the forward and backward reactions</string>
+    <string name="fact_six">Heterogeneous Equilibrium: The substances involved in the reaction are in at least 2 or more physical states.</string>
+    <string name="fact_five">The Equilibrium Law:  It is the mathematical relationship which relates the amount of the species in an equilibrium mixture in terms of concentrations or partial pressures.</string>
+    <string name="fact_four">The Equilibrium constant is a constant value at any given temperature.</string>
+    <string name="fact_three">The Equilibrium constant is a constant value at any given temperature.</string>
+    <string name="fact_two">Equilibrium contants are not affected by changes in concentration or pressure of reactants or products.</string>
+    <string name="definition_seven">Isotopes are atoms of the same element with same number of protons but different number of neutrons.</string>
+    <string name="definition_six">Mole is the amount of substance containing same number of particles there are atoms in 12g of pure carbon-12.</string>
+    <string name="definition_five">Avogadro constant is equals to 6.02 x 10²³ mol⁻¹</string>
+    <string name="definition_four">Molar volume is the volume occupied by 1 mole of gas.</string>
+    <string name="definition_three">Stoichiometry is the relationship between the amounts of reactants and products involved in a chemical reaction.</string>
+    <string name="definition_two">Limiting reagent is the reactant that is completely used up in a reaction.</string>
+    <string name="definition_one">Standard solution contains a known amount of solute in a given volume of the solution.</string>
+    <string name="stats">Statistics</string>
+    <string name="evidences">Evidences</string>
+    <string name="evidences_one">The Singaporean education system was described as world-leading and picked out for commendation by British education minister Michael Gove.</string>
+    <string name="evidences_two">Singapore\'s education system consists several specialised streams to better cater to all students.</string>
+    <string name="evidences_three">The Integrated Program (IP) and International Baccalaureate Program (IB) allow opportunities for students who excel to easily further advance their skills.</string>
+    <string name="evidences_four">Normal Technical (NT) and Normal Academic (NA) streams cater to students who require more focus on the basics.</string>
+    <string name="evidences_five">Gifted Education Program (GEP) nurtures gifted students from a younger age.</string>
+    <string name="evidences_six">Sports help us rest, keep fit and relax in the work-driven society of Singapore.</string>
+    <string name="evidences_seven">Facebook earns $1 billion annually as of 2010 from hosting advertisements alone.</string>
+    <string name="quote_one">“The press and politicians. A delicate relationship. Too close and danger ensues. Too far apart and democracy itself cannot function.” – Howard Brenton, English playwright</string>
+    <string name="quote_two">\"The media\'s the most powerful entity on earth. They have the power to make the innocent guilty and to make the guilty innocent, and that\'s power. Because they control the minds of the masses.\" - Malcolm X, American human rights activist</string>
+    <string name="quote_three">\"The more social media we have, the more we think we\'re connecting, yet we are really disconnecting from each other.\" - JR, French artist</string>
+    <string name="quote_four">\"Social media is the ultimate equalizer. It gives a voice and a platform to anyone willing to engage.\" - Amy Jo Martin, American author</string>
+    <string name="quote_five">\"Whoever controls the media, controls the mind.\" - Jim Morrison, American poet</string>
+    <string name="quote_six">\"Technology and social media have brought power back to the people.\" - Mark McKinnon, American political advisor</string>
+    <string name="stats_one">NUS is ranked 5th worldwide (QS World Ranking 2014) for Chemical Engineering.</string>
+    <string name="stats_two"><![CDATA[NUS is ranked 9th worldwide (QS World Ranking 2014) for Computer Science & Information Systems.]]></string>
+    <string name="stats_three">NUS School of Computing is ranked 1st in Asia (QS World Ranking 2014).</string>
+    <string name="stats_four">An estimated $91.3 million from the Sporting Singapore Fund (SSF) will be allocated to support Sports initiatives under Vision 2030.</string>
+    <string name="stats_five">The number of arts companies almost tripled from 302 in 2003 to 856 in 2011 while the number of museums doubled from 28 in 2004 to 56 in 2011. (Singapore Cultural Statistics 2012)</string>
+    <string name="stats_six">In Budget 2013, a sizeable amount of $1.3 billion was allocated to Ministry of Culture, Community and Youth ​(MCCY) to bolster the arts scene in Singapore.</string>
+    <string name="population">Populations</string>
+    <string name="litho">Lithosphere</string>
+    <string name="litho_one">The core: Inner and outer core, outer liquid about 3500km radius, inner solid about 1255km</string>
+    <string name="litho_two">The core is heavy and dense, and nickel-iron alloy called Nife</string>
+    <string name="litho_three">The Gutenberg Discontinuity: Separates core from mantle, zone of discontinuity</string>
+    <string name="litho_four">The Gutenberg Discontinuity: Slowing of seismic waves in region</string>
+    <string name="litho_five">The Mantle: Lithosphere, Asthenosphere and Mesosphere</string>
+    <string name="litho_six">The Mantle: Deepest solid layer is mesosphere, the semi-molten layer is the asthenosphere, the solid layer above, including crust, is lithosphere</string>
+    <string name="litho_seven">The Mantle: The rigid lithosphere is broken into plates which can move over the molten asthenosphere</string>
+    <string formatted="false" name="statistic_one">Only about 1% of the water on Earth is fresh water that is available for human use</string>
+    <string formatted="false" name="statistic_two">China has 21% of the world population but only 7% of the world’s freshwater</string>
+    <string name="statistic_three">World population tripled while the water demand increased by 6 times</string>
+    <string name="statistic_four">135 million people could die from water-related diseases by 2020</string>
+    <string name="statistic_five">Total construction cost of Columbia Regional Wastewater Treatment Plant was $51 million and another $3 million worth of equipment</string>
+    <string name="statistic_six">Singspring Desalination Plant at Tuas costs $200 million to construct</string>
+    <string name="statistic_seven">In Asia cereal production doubled between 1970 and 1975, yet the total land area cultivated with cereals increased by only 4 percent.</string>
+    <string name="population_one">Population density refers to the number of people living in per square kilometer of the land</string>
+    <string name="population_two">Population explosion is a sudden rapid rise in the number of people (increase is increasing) ·</string>
+    <string name="population_three">Population stagnation is no increase in Rate of Natural increase and population numbers ·</string>
+    <string name="population_four">Population stagnation is no increase in Rate of Natural increase and population numbers ·</string>
+    <string name="population_five">Birth rate is the number of live births per 1000 people per year (no. of births / population x 1000).</string>
+    <string name="population_six">Total Fertility Rate is  number of children a woman is expected to have in her child-bearing years (15 – 49 years old) [No. of babies / No. of mothers]</string>
+    <string name="population_seven">Ideal TFR is 2.1, to replace father and mother and adults that are childless.</string>
+    <string name="rules">Math Rules</string>
+    <string name="facts">Facts</string>
+    <string name="fact">Facts</string>
+    <string name="f_one">d/dx sin x = cos x</string>
+    <string name="f_two">d/dx cos x = - sin x</string>
+    <string name="f_three">d/dx tan x = sec^2 x</string>
+    <string name="f_four">d/dx sin f(x) = [cos f(x)] f\'(x)</string>
+    <string name="f_five">d/dx cos f(x) = [- sin f(x)] f\'(x)</string>
+    <string name="f_six">d/dx tan f(x) = [sec^2 f(x)] f\'(x)</string>
+    <string name="f_seven">cos^2 x + sin^2 x = 1</string>
+    <string name="rules_one">If y = ku, dy/dx = kdu/dx</string>
+    <string name="rules_two">Sum/difference rule: If y = u ± v, dy/dx = du/dx ± dv/dx</string>
+    <string name="rules_three">Product rule: If y = uv, dy/dx = v(du/dx) + u(dv/dx)</string>
+    <string name="rules_four">Chain rule: If y = u ± v, dy/dx = du/dx ± dv/dx</string>
+    <string name="rules_five">Quotient rule: If y = u/v, dy/dx = [v(du/dx) - u(dv/dx)]/(v^2)</string>
+    <string name="rules_six">If y = g(u) and u = u(x), dy/dx = dy/du x du/dx</string>
+    <string name="rules_seven">dy/dx = 1/(dy/dx)</string>
+    <string name="facts_one">It is one of the most fundamental concepts in Mathematics</string>
+    <string name="facts_two"><![CDATA[f:X |--> Y is f maps to Y]]></string>
+    <string name="facts_three">A function f is a rule or relation which assigns each and every element of x∈X to one and only one element y∈Y</string>
+    <string name="facts_four">A set of x-values are called inputs</string>
+    <string name="facts_five">A set of y-values are called outputs or images</string>
+    <string name="facts_six">Inputs are the domain of function f, Df</string>
+    <string name="facts_seven">Outputs are the range of function f, Rf</string>
+    <string name="def_one">The Law of Supply states that the higher the price of a good, the higher the quantity supplied of the good, ceteris paribus.</string>
+    <string name="def_two">The Law of Demand states that the higher the price of a good, the less people will demand that good, ceteris paribus.</string>
+    <string name="def_three">An externality is the cost or benefit that affects a third party.</string>
+    <string name="def_four">Market failure occurs when markets fail to implement all the gains or welfare improvement that can be achieved through voluntary exchange.</string>
+    <string name="def_five">A public good is a good that is non-rivalrous and non-excludable in consumption.</string>
+    <string name="def_six">A public good is a good that is non-rivalrous and non-excludable in consumption.</string>
+    <string name="computing_questions">Computing Questions</string>
+    <string name="math_questions">Math Questions</string>
+    <string name="economics_facts">Economic Facts</string>
+    <string name="evidences_examples">Examples and Evidences</string>
+    <string name="chemistry_fact">Equlibria Fact</string>
+</resources>

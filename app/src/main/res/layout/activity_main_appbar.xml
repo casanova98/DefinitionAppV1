@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id='@+id/drawer_layout'
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|top">
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/biology"
+                    android:drawableStart="@drawable/img_biology"
+                    android:id="@+id/imageButton"
+                    android:onClick="button_biology"
+                    android:contentDescription="@string/biology"
+                    android:layout_above="@+id/imageButton8"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/computing"
+                    android:drawableStart="@drawable/img_computing"
+                    android:id="@+id/imageButton3"
+                    android:onClick="button_computing"
+                    android:contentDescription="@string/computings"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/chinese"
+                    android:drawableStart="@drawable/img_chinese"
+                    android:id="@+id/imageButton2"
+                    android:onClick="button_chineses"
+                    android:contentDescription="@string/chineses"
+                    android:layout_alignBaseline="@+id/imageButton3"
+                    android:layout_alignBottom="@+id/imageButton3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/physics"
+                    android:drawableStart="@drawable/img_physics"
+                    android:id="@+id/imageButton4"
+                    android:onClick="button_physics"
+                    android:contentDescription="@string/physics"
+                    android:layout_above="@+id/imageButton6"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/chemistry"
+                    android:drawableStart="@drawable/img_chemistry"
+                    android:id="@+id/imageButton5"
+                    android:onClick="button_chem"
+                    android:contentDescription="@string/chemistry"
+                    android:layout_alignBottom="@+id/imageButton6"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/generalpaper"
+                    android:drawableStart="@drawable/img_generalpaper"
+                    android:id="@+id/imageButton6"
+                    android:onClick="button_english"
+                    android:contentDescription="@string/generalpaper"
+                    android:layout_above="@+id/imageButton3"
+                    android:layout_alignParentEnd="true" />
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/geography"
+                    android:drawableStart="@drawable/img_geography"
+                    android:id="@+id/imageButton7"
+                    android:onClick="button_geo"
+                    android:contentDescription="@string/geography"
+                    android:layout_below="@+id/imageButton2"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:padding="25dp"
+                android:text="@string/math"
+                android:drawableStart="@drawable/img_math"
+                android:id="@+id/imageButton8"
+                android:onClick="button_math"
+                android:contentDescription="@string/math"
+                    android:layout_above="@+id/imageButton5"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:padding="25dp"
+                    android:text="@string/economics"
+                    android:drawableStart="@drawable/img_economics"
+                    android:id="@+id/imageButton9"
+                    android:onClick="button_econs"
+                    android:contentDescription="@string/economics"
+                    android:layout_above="@+id/imageButton4"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+        </FrameLayout>
+
+
+        <fragment
+            android:id="@+id/fragment_navigation_drawer"
+            android:name="cheongjun.ngin.definition.NavigationDrawerFragment"
+            android:layout_width="@dimen/nav_drawer"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:layout="@layout/fragment_navigation_drawer"
+            tools:layout="@layout/fragment_navigation_drawer" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>
